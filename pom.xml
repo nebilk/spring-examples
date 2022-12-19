@@ -9,5 +9,8 @@
 	<name>spring-examples</name>
 	<description>spring-examples</description>
 
+	<modules>
+		<module>spring-events</module>
+	</modules>
 
 </project>
