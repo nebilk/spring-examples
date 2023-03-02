@@ -11,6 +11,7 @@
 
 	<modules>
 		<module>spring-events</module>
+		<module>spring-security-jwt</module>
 	</modules>
 
 </project>
