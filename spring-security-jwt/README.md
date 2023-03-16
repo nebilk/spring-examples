@@ -21,7 +21,7 @@ The system work with 2 token type, access_token and refresh_token.
 ## API list
 **There are 4 API endpoints;**
 
->[AuthController](/src/main/java/tr/com/nebilk/springsecurityjwt/controller/AuthController.java) /api/v1/auth
+>[AuthController](src/main/java/tr/com/nebildev/springsecurityjwt/controller/AuthController.java) /api/v1/auth
 
 - POST /login -> public API for all users
   - Login logic is in CustomAuthenticationFilter
@@ -29,18 +29,18 @@ The system work with 2 token type, access_token and refresh_token.
 - POST /refresh-token -> if your token expired, you can refresh your token by this API
 - POST /validate-token -> you can check is your token valid or not
 
->[UserController](/src/main/java/tr/com/nebilk/springsecurityjwt/controller/UserController.java)  /api/v1/users
+>[UserController](src/main/java/tr/com/nebildev/springsecurityjwt/controller/UserController.java)  /api/v1/users
 
 - GET  -> if the given user has ADMIN role, list all users
 - POST  -> if the given user has ADMIN role, create a user
 - POST /{username}/roles -> if the given user has ADMIN role, add a role to a user
 
->[RoleController](/src/main/java/tr/com/nebilk/springsecurityjwt/controller/RoleController.java)  /api/v1/roles
+>[RoleController](src/main/java/tr/com/nebildev/springsecurityjwt/controller/RoleController.java)  /api/v1/roles
 
 - POST -> if the given user has ADMIN role, create a role
 - GET  -> if the given user has ADMIN role, list all roles
 
->[ResourceController](/src/main/java/tr/com/nebilk/springsecurityjwt/controller/ResourceController.java)  /api/v1/resources 
+>[ResourceController](src/main/java/tr/com/nebildev/springsecurityjwt/controller/ResourceController.java)  /api/v1/resources 
 
 - GET -> public API
 

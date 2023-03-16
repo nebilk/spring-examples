@@ -8,7 +8,7 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>tr.com.nebilk</groupId>
+    <groupId>tr.com.nebildev</groupId>
     <artifactId>spring-events</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-event</name>
