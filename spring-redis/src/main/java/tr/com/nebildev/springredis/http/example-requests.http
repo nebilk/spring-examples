@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/spring-redis/api/v1/cities
+Content-Type: application/json
+
+{ "name" : "İzmir", "code": "035", "shortName": "IZM" }
+
+###
+POST http://localhost:8080/spring-redis/api/v1/cities
+Content-Type: application/json
+
+{ "name" : "Ankara", "code": "006", "shortName": "ANK" }
+
+###
+GET http://localhost:8080/spring-redis/api/v1/cities/035
+
+###
+GET http://localhost:8080/spring-redis/api/v1/cities
+
+
